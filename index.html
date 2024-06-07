@@ -122,6 +122,10 @@
             padding: 40px 0;
             background-color: #ffffff;
         }
+        .video iframe { 
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
         footer {
             padding: 40px 40px;
             background-color: #24445a;
@@ -157,9 +161,7 @@
     </div>
 
     <div class="video">
-        <video width="100%" controls loop>
-            <source src="demo.mov" type="video/mp4">
-        </video>
+        <iframe src="https://www.youtube.com/embed/2aYrQHsP94M?autoplay=1&loop=1&playlist=2aYrQHsP94M&controls=0" allow="autoplay; encrypted-media"></iframe>
     </div>
 
     <div class="team">
